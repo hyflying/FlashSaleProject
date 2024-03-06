@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.xxxx.seckill.SeckillDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.101 s <<< FAILURE! - in com.xxxx.seckill.SeckillDemoApplicationTests
+com.xxxx.seckill.SeckillDemoApplicationTests  Time elapsed: 0.101 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/fly/Documents/seckill-demo/target/test-classes/com/xxxx/seckill/SeckillDemoApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [/Users/fly/Documents/seckill-demo/target/test-classes/com/xxxx/seckill/SeckillDemoApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [/Users/fly/Documents/seckill-demo/target/test-classes/com/xxxx/seckill/SeckillDemoApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
